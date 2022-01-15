@@ -8,12 +8,23 @@ Super lite whatsapp loader for chat bot development.
 
 ```bash
 docker build . -t mywhatsapp
+
+# or, if you need more quicker wrapper, use 
+docker build . -t mywhatsapp -f Dockerfile-quick
+
 ```
 
 ### Run
 
 ```bash
 docker run --rm -it mywhatsapp
+```
+
+### Compose
+
+```bash
+docker-compose build
+docker-compose up
 ```
 
 ## 📃 Legal
