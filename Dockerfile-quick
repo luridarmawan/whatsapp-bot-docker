@@ -1,10 +1,8 @@
 FROM luri/whatsapp-wrapper-quick
 
 WORKDIR /app
-RUN unzip -q chrome-linux.zip -d linux-666595/ && rm -rf chrome-linux.zip
 
 # Copy your config file to container
 COPY config.json .
 
 #CMD ["./carik-linux"]
-
