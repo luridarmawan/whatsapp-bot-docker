@@ -6,4 +6,3 @@ COPY config.json .
 
 #ENTRYPOINT ./carik-linux
 CMD ["./carik-linux"]
-#CMD ["bash", "-c", "ls /"]
