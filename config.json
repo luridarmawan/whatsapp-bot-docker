@@ -1,0 +1,17 @@
+{
+    "appconfig": {
+        "botName": "ExampleBot",
+        "phoneNumber": "6281122334455",
+        "token": "45678",
+        "clientId": 0,
+        "debug": true,
+        "headless": true,
+        "isGroupReply": true,
+        "downloadMedia": false,
+        "replyUnreadMsg": true,
+        "webhook": "",
+        "outgoingQueue": "",
+        "qrcodebridgeUrl": ""
+    },
+    "blocked": [""]
+}
