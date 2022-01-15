@@ -1,9 +1,6 @@
-version: '0.0.1'
+version: "3"
 services:
   whatsapp:
     build:
-      dockerfile: Dockerfile
-    ports:
-      - "8000:80"
-    volumes:
-      - .:/code
+      context: .
+      dockerfile: Dockerfile-quick

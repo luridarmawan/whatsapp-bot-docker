@@ -23,8 +23,7 @@ docker run --rm -it mywhatsapp
 ### Compose
 
 ```bash
-docker-compose build
-docker-compose up
+docker-compose up --build
 ```
 
 ## 📃 Legal
