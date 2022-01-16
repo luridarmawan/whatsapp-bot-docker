@@ -65,6 +65,11 @@ docker-compose up --build
 | outgoingQueue | API endpoint that periodically fetch message data to be sent. | |
 | qrcodebridgeUrl | API endpoint that will handle QR Code verification each setup web whatsapp | |
 
+You can directly setup configuration from parameters in command line.
+
+```bash
+./carik-loader --botName=YourCustomBot --phoneNumber=6211111111
+```
 
 ## Resource
 
