@@ -1,17 +1,19 @@
 {
-    "appconfig": {
-        "botName": "ExampleBot",
-        "phoneNumber": "6281122334455",
-        "token": "45678",
-        "clientId": 0,
-        "debug": true,
-        "headless": true,
-        "isGroupReply": true,
-        "downloadMedia": false,
-        "replyUnreadMsg": true,
-        "webhook": "",
-        "outgoingQueue": "",
-        "qrcodebridgeUrl": ""
-    },
-    "blocked": [""]
+  "appconfig": {
+    "botName": "ExampleBot",
+    "phoneNumber": "6281122334455",
+    "token": "0000",
+    "clientId": 0,
+    "debug": true,
+    "headless": true,
+    "isGroupReply": false,
+    "downloadMedia": false,
+    "replyUnreadMsg": true,
+    "webhook": "",
+    "outgoingQueue": "",
+    "qrcodebridgeUrl": ""
+  },
+  "blocked": [
+    ""
+  ]
 }
