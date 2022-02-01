@@ -11,7 +11,7 @@
     "replyUnreadMsg": true,
     "webhook": "",
     "outgoingQueue": "",
-    "qrcodebridgeUrl": ""
+    "qrCodeBridgeUrl": ""
   },
   "blocked": [
     ""
