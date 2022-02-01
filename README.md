@@ -63,7 +63,7 @@ docker-compose up --build
 | replyUnreadMsg | Replay all unread messages  | false |
 | webhook | API endpoint that will handle all incoming message. _Read API Doc_.<br>ex: https://yourdomain/api/handler | |
 | outgoingQueue | API endpoint that periodically fetch message data to be sent. | |
-| qrcodebridgeUrl | API endpoint that will handle QR Code verification each setup web whatsapp | |
+| qrCodeBridgeUrl | API endpoint that will handle QR Code verification each setup web whatsapp | |
 
 You can directly setup configuration from parameters in command line.
 
