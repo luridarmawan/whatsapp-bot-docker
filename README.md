@@ -42,7 +42,7 @@ docker-compose up --build
     "replyUnreadMsg": true,
     "webhook": "",
     "outgoingQueue": "",
-    "qrcodebridgeUrl": ""
+    "qrCodeBridgeUrl": ""
   },
   "blocked": [
     ""
