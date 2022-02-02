@@ -1,11 +1,11 @@
 <?php
 /**
  * USAGE
- *   curl -X POST "localhost:8000/" -d '{"botName":"YourBot","phoneNumber":"62112233445566","clientId":1,"code":"1@airMsIMe6ASkRoWnG+2gY1t43MOgmi0nEkAJGf+uIFyud5LMHKXD"}'
+ *   curl "localhost:8000/" -d '{"botName":"YourBot","phoneNumber":"62112233445566","clientId":1,"code":"1@airMsIMe6ASkRoWnG+2gY1t43MOgmi0nEkAJGf+uIFyud5LMHKXD"}'
+ *
  */
 ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
-@header("Content-type:application/json");
 $json['code'] = 400;
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
