@@ -1,10 +1,10 @@
 FROM luri/whatsapp-wrapper-quick
 
 WORKDIR /app
-#RUN wget https://github.com/luridarmawan/whatsapp-bot-docker/raw/development/bin/carik-linux.zip && unzip carik-linux.zip && chmod +x carik-linux && rm -rf carik-linux.zip
+#RUN wget https://github.com/luridarmawan/whatsapp-bot-docker/raw/development/bin/carik-linux.zip && unzip -o carik-linux.zip && chmod +x carik-linux && rm -rf carik-linux.zip
 
 # Copy your config file to container
 COPY config.json .
 
 # example: bypass change botName in config.json
-CMD ["./carik-loader", "--botName=culidBot"]
+CMD ["./carik-loader", "--botName=yourBot"]
