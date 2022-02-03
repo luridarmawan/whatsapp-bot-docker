@@ -12,7 +12,7 @@
     "CustomInjectionFolder": "",
     "webhook": "",
     "outgoingQueue": "",
-    "qrCodeBridgeUrl": ""
+    "notificationUrl": ""
   },
   "blocked": [
     ""
