@@ -43,7 +43,7 @@ docker-compose up --build
     "CustomInjectionFolder": "",
     "webhook": "",
     "outgoingQueue": "",
-    "qrCodeBridgeUrl": ""
+    "notificationUrl": ""
   },
   "blocked": [
     ""
