@@ -40,6 +40,7 @@ docker-compose up --build
     "isGroupReply": false,
     "downloadMedia": false,
     "replyUnreadMsg": true,
+    "CustomInjectionFolder": "",
     "webhook": "",
     "outgoingQueue": "",
     "qrCodeBridgeUrl": ""
