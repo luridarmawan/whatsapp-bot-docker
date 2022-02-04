@@ -9,15 +9,15 @@ ini_set('display_startup_errors', 1);
 $json['code'] = 400;
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-	$json['text'] = 'Invalid method.';
-	die(json_encode( $json));
+  $json['text'] = 'Invalid method.';
+  die(json_encode( $json));
 }
 
 $RequestContent = file_get_contents('php://input');
 $RequestContentAsJson = [];
 if (empty($RequestContent)){
-	$json['text'] = 'Invalid content.';
-	die(json_encode( $json));
+  $json['text'] = 'Invalid content.';
+  die(json_encode( $json));
 }
 $RequestContentAsJson = json_decode($RequestContent, true);
 $Command = @$RequestContentAsJson['cmd'];
@@ -27,7 +27,7 @@ if (empty($Command)){
 }
 
 switch ($Command) {
-	case 'qrcode':
+  case 'qrcode':
     $QRCode = @$RequestContentAsJson['data'];
     if (empty($QRCode)){
       $json['text'] = 'Invalid QR Code.';
@@ -37,8 +37,8 @@ switch ($Command) {
     // Your QRCode handler
 
     $json['text'] = 'QRCode received.';
-    die(json_encode( $json));  
-		break;
+    die(json_encode( $json));
+    break;
 
   case 'active':
     $json['text'] = 'OK';
@@ -53,5 +53,5 @@ switch ($Command) {
   default:
     $json['text'] = 'Unhandled command: '.$Command;
     die(json_encode( $json));  
-		break;
+    break;
 }
