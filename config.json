@@ -8,7 +8,7 @@
     "headless": true,
     "isGroupReply": false,
     "downloadMedia": false,
-    "replyUnreadMsg": true,
+    "replyUnreadMsg": false,
     "CustomInjectionFolder": "",
     "webhook": "",
     "outgoingQueue": "",
