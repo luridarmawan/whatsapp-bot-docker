@@ -86,5 +86,5 @@ You can directly setup configuration from parameters in command line.
 <br>
 
 ## 📃 Legal
-This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by WhatsApp or any of its affiliates or subsidiaries. This is an independent and unofficial software. Use at your own risk.
-**Commercial use of this code/repo is strictly prohibited.**
+This library is in no way affiliated with, authorized, maintained, sponsored or endorsed by WhatsApp or any of its affiliates or subsidiaries. This is an independent and unofficial software. Use at your own risk. Do not spam people with this.
+We hold no liability for your use of this tool, in fact, depending on how you use this library, you'll be in violation of WhatsApp's Terms of Service. We discourage any stalkerware, bulk or automated messaging usage.
