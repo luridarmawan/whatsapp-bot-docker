@@ -86,5 +86,5 @@ You can directly setup configuration from parameters in command line.
 <br>
 
 ## 📃 Legal
-This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by WhatsApp or any of its affiliates or subsidiaries. This is an independent and unofficial software. Use at your own risk.
+This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by WhatsApp or any of its affiliates or subsidiaries. This is an independent and unofficial software. Use at your own discretion. Do not spam people with this.
 **Commercial use of this code/repo is strictly prohibited.**
